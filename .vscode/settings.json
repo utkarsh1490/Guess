@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "Array_Stack.C": "cpp"
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+}
