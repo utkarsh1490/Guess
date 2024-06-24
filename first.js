@@ -72,13 +72,9 @@ el.onclick = function(){
 }
 
 function postAjaxFunction(){
-    alert("Before")
     if(httpRequest.readyState === XMLHttpRequest.DONE){
-        alert("Middle")
         if(httpRequest.status === 200){
-            alert("After")
             var response = JSON.parse(httpRequest.responseText);
-            alert("2")
             alert("response : "+response)
             alert(response.name+" - "+response.message);
         }else{
